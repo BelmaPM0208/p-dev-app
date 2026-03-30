@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #0d1106;
+    --foreground: #ffffff;
+    --card: #1a2212;
+    --card-foreground: #ffffff;
+    --accent: #d8fc35;
+    --accent-foreground: #000000;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
